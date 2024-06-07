@@ -1,0 +1,31 @@
+/* styles.css */
+
+/* Estilos adicionais para personalização do navbar */
+.navbar {
+    margin-bottom: 0; /* Remove o espaço abaixo do navbar */
+    height: 80px; /* Define a altura desejada */
+    line-height: 80px; /* Centraliza verticalmente o conteúdo */
+}
+
+.navbar-brand {
+    padding: 0; /* Remove o preenchimento interno da marca */
+}
+
+.navbar-nav {
+    width: 100%; /* Ocupa toda a largura disponível */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+.nav-item {
+    display: inline-block; /* Exibe os itens lado a lado */
+    margin: 0 50px; /* Adiciona espaçamento entre os itens */
+}
+
+.nav-link {
+    color: #fff; /* Cor do texto */
+}
+
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #000; /* Cor do texto ao passar o mouse */
+}
