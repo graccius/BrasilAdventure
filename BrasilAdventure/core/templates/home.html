@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <!-- Adicionando a classe fixed-top -->
         <div class="container">
             <a class="navbar-brand" href="{% url 'home' %}">
-                <img src="{% static 'images/logo.png' %}" alt="Logo" width="150">
+                <img src="{% static 'images/logo.png' %}" alt="Logo" width="130">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,14 +48,22 @@
     <!-- Carrossel de imagens -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{% static 'images/slide1.jpg' %}" class="d-block w-100" alt="Slide 1">
+            <div class="carousel-item active" style="position: center;">
+                <img src="{% static 'images/jalapao3.jpg' %}" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block" style="position: absolute; bottom: 10%;">
+                    <h2 class="text-white text-center">Conheça o Roteiro</h2>
+                    <p class="text-white text-center mb-4">Explore nossos incríveis tours no Jalapão</p>
+                    <a class="btn btn-primary btn-lg rounded-pill" href="{% url 'tours' %}" style="width: 200px; margin: 0 auto;">Conheça</a>
+                </div>
+            </div>
+            
+            
+            
+            <div class="carousel-item">
+                <img src="{% static 'images/jalapao9.jpg' %}" class="d-block w-100" alt="Slide 2">
             </div>
             <div class="carousel-item">
-                <img src="{% static 'images/slide2.jpg' %}" class="d-block w-100" alt="Slide 2">
-            </div>
-            <div class="carousel-item">
-                <img src="{% static 'images/slide3.jpg' %}" class="d-block w-100" alt="Slide 3">
+                <img src="{% static 'images/jalapao13.jpg' %}" class="d-block w-100" alt="Slide 3">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

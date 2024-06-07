@@ -29,3 +29,9 @@
 .navbar-nav .nav-item .nav-link:hover {
     color: #000; /* Cor do texto ao passar o mouse */
 }
+
+.img-carousel {
+    max-height: 500px; /* Defina o tamanho máximo da altura das imagens */
+    width: auto; /* A largura será ajustada automaticamente para manter a proporção */
+    margin: 0 auto; /* Centraliza as imagens */
+}
